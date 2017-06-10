@@ -1,0 +1,9 @@
+1.weixin:仿微信主界面
+Fastjson:可以处理处理任意java对象，包括没有源码的已存在对象。
+优点：
+1.性能好
+2.调用简单，toJSONString和parseObject方法，将java对象转化成Json，反之亦然
+3.支持java泛型
+4.允许自定义表示对象
+5.支持任意复杂的对象
+如：User user = JSON.parseObject(json, User.class);
